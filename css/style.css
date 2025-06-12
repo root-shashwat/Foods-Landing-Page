@@ -141,7 +141,7 @@
   opacity: 50%;
 }
 /* ------------------------------------------ */
-/* HOW SECTION */
+/* HOW IT WORKS SECTION */
 /* ------------------------------------------ */
 .section-how {
   padding: 9.6rem 0;
@@ -166,3 +166,62 @@
   max-width: 65%;
 }
 /* FEATURED IN SECTION */
+
+/* ------------------------------------------ */
+/* MEALS SECTION */
+/* ------------------------------------------ */
+.section-meals {
+  padding: 9.6rem 0;
+}
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem;
+}
+.meal-tags {
+  margin-bottom: 12px;
+}
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.meal-title {
+  font-size: 2.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.4rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.meal-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.meal-img {
+  width: 100%;
+}
+/* STYLING MEAL-ICON */
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #cf711f;
+}
+/* I don't like the 700 font weight so I manually decreased it to 500 */
+strong {
+  font-weight: 500;
+}
